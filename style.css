@@ -1,5 +1,8 @@
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .banner {
@@ -32,4 +35,14 @@ li {
 ul {
     display: flex;
     gap: 32px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 18px 0px;
 }

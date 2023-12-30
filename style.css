@@ -1,5 +1,6 @@
 body {
     font-family: roboto;
+    margin: 0px;
 }
 
 a {
@@ -14,7 +15,7 @@ a {
     width: auto;
     background-color: #1f2937;
     flex: 1 0 0;
-    padding: 8px 64px;
+    padding: 32px 300px 0px 300px;
 }
 
 .logo {
@@ -27,7 +28,7 @@ a {
     display: flex;
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     gap: 18px;
 }
 
@@ -35,13 +36,14 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 32px 64px;
+    padding: 150px 300px;
+    gap: 50px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
     flex: 1;
 }
 
@@ -58,20 +60,22 @@ a {
 }
 
 .hero-text button {
-    width: 100px;
+    width: 125px;
     background-color: #3882f6;
     color: #E5E7EB;
     border: none;
+    border-radius: 8px;
     text-decoration: none;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
     padding: 8px 16px;
 }
 
 .image {
     display: flex;
     flex: 1;
-    background-color: rgb(219, 219, 219);
+    background-color: gray;
     justify-content: center;
     align-items: center;
 }
@@ -83,7 +87,7 @@ a {
 }
 
 .tiles #info {
-    margin: 32px;
+    margin-top: 64px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -93,7 +97,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0px 64px 64px 64px;
+    margin: 32px 64px 64px 64px;
 }
 
 .block {
@@ -124,7 +128,8 @@ a {
     background-color: #E5E7EB;
     flex-direction: column;
     align-items: flex-end;
-    padding: 100px;
+    padding: 100px 400px;
+    gap: 16px;
 }
 
 #quote-text {
@@ -145,8 +150,8 @@ a {
     align-items: center;
     background-color: #3882f6;
     border-radius: 8px;
-    margin: 64px;
-    padding: 32px;
+    margin: 100px 300px;
+    padding: 64px 100px;
     color: #E5E7EB;
 }
 
@@ -170,11 +175,13 @@ a {
     text-decoration: none;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
     text-align: center;
     background-color: #1f2937;
     color: #E5E7EB;
-    padding: 16px 0px;
+    padding: 32px;
+    font-size: 18px;
 }
